@@ -1,5 +1,5 @@
-import { LoadingSpinner } from "../../shared";
-import { useLabels } from "../hooks";
+import { LoadingSpinner } from "@/shared";
+import { useLabels } from "@issues/hooks";
 
 export const LabelPicker = () => {
   const { labelsQuery } = useLabels();
